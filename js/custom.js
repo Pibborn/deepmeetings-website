@@ -1,4 +1,4 @@
-baseUrl = ''
+baseUrl = 'deepmeetings'
 
 function loadModal(pageId) {
     requestUrl = baseUrl.concat('/event-pages/', pageId, '.html');
