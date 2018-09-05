@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>DeepMeetings@Unito</title>
+
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Tajawal" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-fixed-top py-md-3">
+        <a class="navbar-brand" href="#">DeepMeetings @ Unito</a>
+        <ul class="nav navbar-nav ml-md-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://deepmeetings.slack.com/">Goto Slack</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Gallery Content -->
+    <div class="outer-container home-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/torch1.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('15')">
+                            <h4>#15 <br> PyTorch Tutorial (2)</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>05 . 07 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/recurrent.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event"
+                            onclick="loadModal('14')">
+                            <h4>#14 <br> RNN for Natural Language Generation</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/giovanni.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Giovanni Bonetta</li>
+                                <li>18 . 06 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/torch2.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('13')">
+                            <h4>#13 <br> PyTorch Tutorial (1)</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>14 . 06 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/tf3.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('12')">
+                            <h4>#12 <br> TensorFlow Tutorial (3)</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/roberto.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Roberto Esposito</li>
+                                <li>29 . 05 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/tf2.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('11')">
+                            <h4>#11 <br> TensorFlow Tutorial (2)</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/roberto.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Roberto Esposito</li>
+                                <li>21 . 05 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/tf1.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('10')">
+                            <h4>#10 <br> TensorFlow Tutorial (1)</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/roberto.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Roberto Esposito</li>
+                                <li>03 . 05 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/gan.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('9')">
+                            <h4>#9 <br> Intro to GANs and Applications</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/daniele.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Daniele Perlo</li>
+                                <li>28 . 02 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/atoms.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('8')">
+                            <h4>#8 <br> Atoms of Recognition in Human and Computer Vision</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/enrico.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Enrico Mensa</li>
+                                <li>16 . 02 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/automata.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('7')">
+                            <h4>#7 <br> Extraction of Knowledge Automata from RNNs</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/alessandro.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Alessandro Mazzei</li>
+                                <li>31 . 01 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/shape.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('6')">
+                            <h4>#6 <br> Limits of Cognitive Science-Inspired Interpretation Approaches</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/antonio.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Antonio Lieto</li>
+                                <li>23 . 01 . 2018</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/capsule.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('5')">
+                            <h4>#5 <br> Intro to Capsule Networks</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>15 . 12 . 2017</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/generalization.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('4')">
+                            <h4>#4 <br> Generalization in Deep Learning</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>20 . 11 . 2017</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/3.jpg" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event">
+                            <h4>#3 <br> Lost Session?</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>23 . 10 . 2017</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/5reasons.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('2')">
+                            <h4>#2 <br> (5 Reasons) Why Deep Learning Works</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/mattia.png" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Mattia Cerrato</li>
+                                <li>09 . 10 . 2017</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+
+                <div class="col-12 col-md-6 col-lg-3 no-padding">
+                    <div class="portfolio-content">
+                        <figure>
+                            <img src="./img/intro2.png" alt="">
+                        </figure>
+
+                        <div class="entry-content flex flex-column align-items-center justify-content-center event" onclick="loadModal('1')">
+                            <h4>#1 <br> Intro to Deep Learning</h4>
+
+                            <ul class="flex flex-wrap justify-content-center">
+                                <li><img src="./img/avatars/roberto.jpg" style="width: 20%" class="rounded-circle speaker-avatar"></li>
+                                <li style="padding-top:5%">Roberto Esposito</li>
+                                <li>25 . 09 . 2017</li>
+                            </ul>
+                        </div>
+                        <!-- .entry-content -->
+                    </div>
+                    <!-- .portfolio-content -->
+                </div>
+                <!-- .col -->
+            </div>
+            <!-- .row -->
+        </div>
+        <!-- .container-fluid -->
+    </div>
+    <!-- .outer-container -->
+
+    <!-- footer -->
+    <div class="row footer">
+        Custom theme based on <a href="https://colorlib.com">&nbsp;Colorlib</a>'s Po-Portfolio. CC BY 3.0.
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
