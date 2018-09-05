@@ -1,4 +1,4 @@
-baseUrl = 'http://127.0.0.1:8000'
+baseUrl = 'kdd.di.unito.it/deepmeetings'
 
 function loadModal(pageId) {
     requestUrl = baseUrl.concat('/event-pages/', pageId, '.html');
